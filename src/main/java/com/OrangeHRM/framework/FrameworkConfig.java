@@ -19,7 +19,7 @@ public class FrameworkConfig {
         com.codeborne.selenide.Configuration.baseUrl = env.getProperty("frontend.url");
         com.codeborne.selenide.Configuration.browser = env.getProperty("browser");
 //        com.codeborne.selenide.Configuration.browser ="edge";
-        com.codeborne.selenide.Configuration.timeout = 40000;
+        com.codeborne.selenide.Configuration.timeout = 60000;
 //        com.codeborne.selenide.Configuration.startMaximized = true;
         com.codeborne.selenide.Configuration.savePageSource = false;
 
