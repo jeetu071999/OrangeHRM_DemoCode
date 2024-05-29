@@ -3,5 +3,5 @@ package com.OrangeHRM.pages;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Dashboard extends HeaderPage{
+public class Dashboard extends LeftPanel {
 }

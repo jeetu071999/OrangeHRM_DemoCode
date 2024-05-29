@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "classpath:features",
         glue = {"com/OrangeHRM/steps"},
-        tags = "@Smoke",
+        tags = "@smoketest",
         plugin = {"pretty:target/cucumber-htmlReport.html", "json:target/cucumber-report.json"})
 
 public class orangeHrmRunner {

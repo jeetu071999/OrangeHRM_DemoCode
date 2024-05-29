@@ -1,7 +1,6 @@
 package com.OrangeHRM.steps.Navigation;
 
 import com.OrangeHRM.pages.Dashboard;
-import com.OrangeHRM.pages.HeaderPage;
 import com.OrangeHRM.steps.CucumberSpringConfiguration;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
@@ -59,6 +58,11 @@ public class NavigateSteps extends CucumberSpringConfiguration {
         dashboard.logout().should(Condition.appear).click();
         Selenide.sleep(5000);
     }
+@When("User navigate to the Buzz page")
+public void user_navigates_to_Buzzpage() throws InterruptedException {
+    dashboard.buzz().should(Condition.appear).click();
+    System.out.println("Navigate");
+}
 
 
 

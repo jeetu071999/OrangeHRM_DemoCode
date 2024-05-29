@@ -4,6 +4,7 @@ Feature: Verify OrangeHRM Login page
   Scenario:Verify Login Page
     Given User logins to OrangeHRM application
     Then User Navigates to Userprofile --> Logout
+#     User logout from application
 
 
   @TestLogin

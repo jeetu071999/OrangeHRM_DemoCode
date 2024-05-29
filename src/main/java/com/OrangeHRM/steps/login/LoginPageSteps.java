@@ -33,9 +33,10 @@ public class LoginPageSteps extends CucumberSpringConfiguration {
         loginPage.password().sendKeys(Pass);
         loginPage.signin().click();
         Selenide.sleep(5000);
-
+        System.out.println("Login ");
 
     }
+
 
 
 
