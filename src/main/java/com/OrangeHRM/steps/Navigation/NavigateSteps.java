@@ -52,7 +52,7 @@ public class NavigateSteps extends CucumberSpringConfiguration {
         dashboard.dashboard().should(Condition.appear).click();
         Selenide.sleep(5000);
     }
-    @When("User Navigates to Userprofile --> Logout")
+    @When("User Logout from application")
     public void user_navigates_to_Logout() throws InterruptedException {
         dashboard.userprofile().should(Condition.appear).click();
         dashboard.logout().should(Condition.appear).click();

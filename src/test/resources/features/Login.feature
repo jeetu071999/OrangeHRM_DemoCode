@@ -3,8 +3,8 @@ Feature: Verify OrangeHRM Login page
   @Smoke
   Scenario:Verify Login Page
     Given User logins to OrangeHRM application
-    Then User Navigates to Userprofile --> Logout
-#     User logout from application
+    Then User Logout from application
+
 
 
   @TestLogin
@@ -13,6 +13,7 @@ Feature: Verify OrangeHRM Login page
     Examples:
       | Username | Password |
       | Admin | admin123 |
+    Then User Logout from application
 
 
 
