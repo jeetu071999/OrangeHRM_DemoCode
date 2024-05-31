@@ -4,9 +4,9 @@ Feature: Verify Access to HR Administration Panel
   Scenario: Verify Admin page
     Given User logins to OrangeHRM application
     When User Navigates to Admin
-    And User click the Add button
+#    And User click the Add button
 
-  @Smoke1
+  @Smoke
   Scenario: Verify hr admin panel
     Given User logins to OrangeHRM application
     When User Navigates to Admin

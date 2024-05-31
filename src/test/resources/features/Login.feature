@@ -7,12 +7,12 @@ Feature: Verify OrangeHRM Login page
 #     User logout from application
 
 
-  @TestLogin
+  @Smoke @Regression
   Scenario Outline: verify Login page
     Given User logins to OrangeHRM application with "<Username>" and "<Password>"
     Examples:
       | Username | Password |
-      | Admin | admin123 |
+      | Admin    | admin123 |
 
 
 

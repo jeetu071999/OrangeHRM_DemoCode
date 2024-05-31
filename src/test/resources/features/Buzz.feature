@@ -5,7 +5,7 @@ Feature: Verify Buzz page
 #    Then User should see the Buzz page title
 
 
-  @smoketest
+  @Smoke
   Scenario Outline: Post a status update on the Buzz page
     Given User logins to OrangeHRM application
     When User navigate to the Buzz page
