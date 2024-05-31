@@ -1,5 +1,5 @@
 Feature: Verify Access My Info
-@smoke
+@Smoke
   Scenario Outline: Update MyInfo
     Given User logins to OrangeHRM application
     When User Navigates to Info

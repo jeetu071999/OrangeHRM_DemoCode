@@ -1,7 +1,7 @@
 Feature: Verify Access to HR Administration Panel
 
 
-  @Smoke1
+  @Smoke
   Scenario: Verify hr admin panel
     Given User logins to OrangeHRM application
     When User Navigates to Admin

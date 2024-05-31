@@ -1,6 +1,6 @@
 Feature: Verify Buzz page
 
-  @regression
+  @regression @Smoke
   Scenario: Navigate to Buzz page and verify its accessibility
     Given User logins to OrangeHRM application
     When User navigate to the Buzz page
