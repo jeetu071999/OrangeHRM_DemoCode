@@ -8,7 +8,7 @@ Feature: Verify Buzz page
     And User Logout from application
 
 
-  @smoketest
+  @Smoke
   Scenario Outline: Post a status update on the Buzz page
     Given User logins to OrangeHRM application
     When User navigate to the Buzz page
