@@ -6,16 +6,21 @@ Feature: Verify OrangeHRM Login page
     Then User Logout from application
 
 
-
-  @TestLogin
+  @Regression
   Scenario Outline: verify Login page
     Given User logins to OrangeHRM application with "<Username>" and "<Password>"
+    Then User Logout from application
     Examples:
       | Username | Password |
-      | Admin | admin123 |
+      | Admin    | admin123 |
+
+  @Manual
+  Scenario Outline: verify Login page with BLANK INPUT
+    Given User logins to OrangeHRM application with "<Username>" and "<Password>"
     Then User Logout from application
-
-
+    Examples:
+      | Username | Password |
+      |          |          |
 
 
 

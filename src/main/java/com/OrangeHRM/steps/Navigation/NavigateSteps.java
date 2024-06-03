@@ -17,18 +17,21 @@ public class NavigateSteps extends CucumberSpringConfiguration {
         Selenide.sleep(5000);
 
     }
+
     @When("User Navigates to Pim")
     public void user_navigates_to_Pim() throws InterruptedException {
         dashboard.pim().should(Condition.appear).click();
         Selenide.sleep(5000);
 
     }
+
     @When("User Navigates to Leave")
     public void user_navigates_to_Leave() throws InterruptedException {
         dashboard.leave().should(Condition.appear).click();
         Selenide.sleep(5000);
 
     }
+
     @When("User Navigates to Recritment")
     public void user_navigates_to_Recritment() throws InterruptedException {
         dashboard.recruitment().should(Condition.appear).click();
@@ -52,18 +55,18 @@ public class NavigateSteps extends CucumberSpringConfiguration {
         dashboard.dashboard().should(Condition.appear).click();
         Selenide.sleep(5000);
     }
+
     @When("User Logout from application")
     public void user_navigates_to_Logout() throws InterruptedException {
         dashboard.userprofile().should(Condition.appear).click();
         dashboard.logout().should(Condition.appear).click();
-        Selenide.sleep(5000);
     }
-@When("User navigate to the Buzz page")
-public void user_navigates_to_Buzzpage() throws InterruptedException {
-    dashboard.buzz().should(Condition.appear).click();
-    System.out.println("Navigate");
-}
 
+    @When("User navigate to the Buzz page")
+    public void user_navigates_to_Buzzpage() throws InterruptedException {
+        dashboard.buzz().should(Condition.appear).click();
+        System.out.println("Navigate");
+    }
 
 
 }
