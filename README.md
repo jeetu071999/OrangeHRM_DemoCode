@@ -50,6 +50,10 @@ mvn clean install
 ## Running Scenarios using Tags from Command Line
 - mvn test -Dcucumber.options="--tags @tagName"
 
+## Reports
+![image](https://github.com/jeetu071999/OrangeHRM_DemoCode/assets/8168069/005db56d-05c3-4b94-98b1-8889d73bdbab)
+
+
 ## Contact
 Prashant Deshmukh : Test Manager @ Accelirate
 
