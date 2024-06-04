@@ -19,10 +19,13 @@ pom.xml: Maven configuration file for project dependencies and build management.
 
 ## Technologies Used
 
-1) Selenide 
-2) Cucumber 
-3) Java 
-4) Jenkins UI Automation Framework 
+## Used tools
+- [Selenide](https://selenide.org/)  (Concise API for UI Automation. Wrapper on top of Selenium)
+- [Cucumber](https://cucumber.io/)
+- [Java](https://www.java.com/en/)
+- [Githab CI/CD docs](https://github.com/prdeshmukh1/UiBank_Selenideframework)
+- [Jenkins CI/CD](https://www.jenkins.io/) (Continios Integration )
+
 
 ## Getting Started
 
@@ -56,4 +59,8 @@ mvn clean install
 
 ## Contact
 Prashant Deshmukh : Test Manager @ Accelirate
+
+## Contributors 
+![image](https://github.com/jeetu071999/OrangeHRM_DemoCode/assets/8168069/88cfe0e9-be90-4384-8917-7ae6f6b79074)
+
 
