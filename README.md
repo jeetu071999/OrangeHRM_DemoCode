@@ -51,5 +51,5 @@ mvn clean install
 - mvn test -Dcucumber.options="--tags @tagName"
 
 ## Contact
-For any inquiries or issues, please open an issue on GitHub.
+Prashant Deshmukh : Test Manager @ Accelirate
 
