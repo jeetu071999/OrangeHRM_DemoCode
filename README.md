@@ -42,13 +42,13 @@ cd OrangeHRM_DemoCode
 3) Build the project using Maven:
 mvn clean install
 
-***Running Tests***
+## How to run on local machine:
+###  By maven
+- for all tests run: `mvn clean test`
+- for single test use: `mvn clean "-Dtest=/src/test/resources/features/Login.feature" test`
 
-To run the tests, execute the following command:
-
-**mvn test**
-
-Test results can be found in the **test-result/reports/** directory.
+## Running Scenarios using Tags from Command Line
+- mvn test -Dcucumber.options="--tags @tagName"
 
 ## Contact
 For any inquiries or issues, please open an issue on GitHub.
